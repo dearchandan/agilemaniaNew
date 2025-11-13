@@ -13,144 +13,8 @@
     </div>
 
     <!-- Slides -->
-    <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-16 overflow-hidden">
-        <div class="relative h-[500px] lg:h-[450px]">
-            <!-- Slide 1 -->
-            <div
-                class="hero-slide absolute inset-0 flex flex-col lg:flex-row items-center justify-between gap-8 transition-opacity duration-700 opacity-100">
-                <div class="text-center lg:text-left">
-                    <div class="inline-block mb-3">
-                        <span class="px-4 py-1.5 bg-white/20 backdrop-blur-sm rounded-full text-xs font-semibold">
-                            🏆 Trusted by 5000+ Professionals
-                        </span>
-                    </div>
-                    <h1 class="text-3xl lg:text-4xl font-bold leading-tight mb-4">
-                        We Expedite <span class="text-yellow-300">Digital Transformation</span> with Agile
-                    </h1>
-                    <p class="text-base text-blue-100 mb-6 leading-relaxed">
-                        Partner with industry-leading agile experts to accelerate your career and transform your
-                        organization through world-class training and certification programs.
-                    </p>
-                    <div class="flex flex-col sm:flex-row gap-3 justify-center lg:justify-start">
-                        <a href="/trainings"
-                            class="inline-flex items-center justify-center px-4 py-2 rounded-md bg-white text-blue-600 hover:bg-gray-100 w-full sm:w-auto shadow-xl">
-                            Explore Training Programs →
-                        </a>
-                        <a href="/assessment"
-                            class="inline-flex items-center justify-center px-4 py-2 rounded-md border-2 border-white text-white hover:bg-white/10 w-full sm:w-auto">
-                            Find Your Path
-                        </a>
-                    </div>
-                </div>
-                <div class="hidden lg:block relative">
-                    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=600&fit=crop"
-                        alt="Digital Transformation" class="rounded-2xl shadow-2xl" />
-                    <div class="absolute -bottom-4 -left-4 bg-white text-gray-900 rounded-xl shadow-2xl p-4">
-                        <div class="text-2xl font-bold text-blue-600">95%</div>
-                        <div class="text-xs text-gray-600">Success Rate</div>
-                    </div>
-                </div>
-            </div>
+    @livewire('home-slider')
 
-            <!-- Slide 2 -->
-            <div
-                class="hero-slide absolute inset-0 flex flex-col lg:flex-row items-center justify-between gap-8 transition-opacity duration-700 opacity-0">
-                <div class="text-center lg:text-left">
-                    <div class="inline-block mb-3">
-                        <span class="px-4 py-1.5 bg-white/20 backdrop-blur-sm rounded-full text-xs font-semibold">
-                            🎯 New Cohort Starting Soon
-                        </span>
-                    </div>
-                    <h1 class="text-3xl lg:text-4xl font-bold leading-tight mb-4">
-                        Product Management <span class="text-yellow-300">Professional Program</span> Cohorts 2025
-                    </h1>
-                    <p class="text-base text-blue-100 mb-6 leading-relaxed">
-                        Join our comprehensive Product Management certification program. Learn from industry experts
-                        through live cohorts, real-world case studies, and hands-on projects.
-                    </p>
-                    <div class="flex flex-col sm:flex-row gap-3 justify-center lg:justify-start">
-                        <a href="/trainings"
-                            class="inline-flex items-center justify-center px-4 py-2 rounded-md bg-white text-blue-600 hover:bg-gray-100 w-full sm:w-auto shadow-xl">
-                            View Cohort Schedule →
-                        </a>
-                        <a href="#"
-                            class="inline-flex items-center justify-center px-4 py-2 rounded-md border-2 border-white text-white hover:bg-white/10 w-full sm:w-auto">
-                            Download Brochure
-                        </a>
-                    </div>
-                </div>
-                <div class="hidden lg:block relative">
-                    <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&h=600&fit=crop"
-                        alt="Product Management" class="rounded-2xl shadow-2xl" />
-                    <div class="absolute -bottom-4 -left-4 bg-white text-gray-900 rounded-xl shadow-2xl p-4">
-                        <div class="text-2xl font-bold text-blue-600">12 Weeks</div>
-                        <div class="text-xs text-gray-600">Program Duration</div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Slide 3 -->
-            <div
-                class="hero-slide absolute inset-0 flex flex-col lg:flex-row items-center justify-between gap-8 transition-opacity duration-700 opacity-0">
-                <div class="text-center lg:text-left">
-                    <div class="inline-block mb-3">
-                        <span class="px-4 py-1.5 bg-white/20 backdrop-blur-sm rounded-full text-xs font-semibold">
-                            🤖 AI-Powered Learning
-                        </span>
-                    </div>
-                    <h1 class="text-3xl lg:text-4xl font-bold leading-tight mb-4">
-                        AI-Enabled Agile <span class="text-yellow-300">Certification Programs</span> Future of Agile
-                    </h1>
-                    <p class="text-base text-blue-100 mb-6 leading-relaxed">
-                        Master AI-enhanced Scrum Master and Product Owner practices. Learn how AI tools revolutionize
-                        sprint planning, backlog management, and team collaboration.
-                    </p>
-                    <div class="flex flex-col sm:flex-row gap-3 justify-center lg:justify-start">
-                        <a href="/trainings"
-                            class="inline-flex items-center justify-center px-4 py-2 rounded-md bg-white text-blue-600 hover:bg-gray-100 w-full sm:w-auto shadow-xl">
-                            Explore AI Courses →
-                        </a>
-                        <a href="/about"
-                            class="inline-flex items-center justify-center px-4 py-2 rounded-md border-2 border-white text-white hover:bg-white/10 w-full sm:w-auto">
-                            Learn More
-                        </a>
-                    </div>
-                </div>
-                <div class="hidden lg:block relative">
-                    <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=600&fit=crop"
-                        alt="AI Agile" class="rounded-2xl shadow-2xl" />
-                    <div class="absolute -bottom-4 -left-4 bg-white text-gray-900 rounded-xl shadow-2xl p-4">
-                        <div class="text-2xl font-bold text-blue-600">AI Tools</div>
-                        <div class="text-xs text-gray-600">Integrated</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Navigation -->
-    <button id="hero-prev"
-        class="absolute left-4 top-1/2 -translate-y-1/2 bg-white/20 backdrop-blur-sm rounded-full p-3 hover:bg-white/30 transition z-10">
-        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-white" fill="none" viewBox="0 0 24 24"
-            stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
-        </svg>
-    </button>
-
-    <button id="hero-next"
-        class="absolute right-4 top-1/2 -translate-y-1/2 bg-white/20 backdrop-blur-sm rounded-full p-3 hover:bg-white/30 transition z-10">
-        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-white" fill="none" viewBox="0 0 24 24"
-            stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
-        </svg>
-    </button>
-
-    <!-- Indicators -->
-    <div class="absolute bottom-6 left-1/2 -translate-x-1/2 flex gap-2 z-10">
-        <button class="hero-dot bg-white w-8 h-2 rounded-full"></button>
-        <button class="hero-dot bg-white/40 w-2 h-2 rounded-full hover:bg-white/60"></button>
-        <button class="hero-dot bg-white/40 w-2 h-2 rounded-full hover:bg-white/60"></button>
-    </div>
 </section>
 
 <!-- Upcoming This Week -->
@@ -468,7 +332,7 @@
     </div>
 </section>
 @endsection
-
+{{-- 
 <script>
     document.addEventListener("DOMContentLoaded", () => {
         const slides = document.querySelectorAll("#hero-carousel .hero-slide");
@@ -523,4 +387,4 @@
 
         showSlide(currentSlide);
     });
-</script>
+</script> --}}

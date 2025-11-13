@@ -3,7 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ $title ?? 'Larawire' }}</title>
+    <title>{{ $title ?? 'Agilemania' }}</title>
+
+    {{-- Livewire Styles --}}
+    @livewireStyles
 
     {{-- Header Scripts --}}
     @include('includes.headerscripts')
@@ -23,5 +26,8 @@
 
     {{-- Footer Scripts --}}
     @include('includes.footerscripts')
+
+    {{-- Livewire Scripts --}}
+    @livewireScripts
 </body>
 </html>
